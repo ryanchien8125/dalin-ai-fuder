@@ -92,7 +92,7 @@ async function* generateResponseSequence(stream: ReadableStream) {
 
 export const extractFortuneStickNumber = async (userMessage: string) => {
   const systemPrompt = `### Role
-You are an intent classification engine for a Fuder Fortune Stick (福德正神靈籤) application. Your task is to analyze the user's input and extract structured data in JSON format.
+You are an intent classification engine for a Fuder Fortune Stick (福德爺文財神靈籤) application. Your task is to analyze the user's input and extract structured data in JSON format.
 
 ### Stick Number Range
 - The valid range for fortune stick numbers is **1 to 60**.
@@ -187,7 +187,7 @@ export const runFuderBot = async (options: RunFuderBotOptions) => {
   const { userMessageContent, eventStream, history = [], fortuneData } = options
 
   // Footer definition
-  const footer = '\n\n（此解籤結果僅供參考，請以誠心向福德正神擲筊確認為準。）'
+  const footer = '\n\n（此解籤結果僅供參考，請以誠心向大林福德爺文財神擲筊確認為準。）'
 
   // Construct System Prompt
   let systemPrompt = ''
@@ -249,7 +249,7 @@ ${JSON.stringify(fortuneData.content)}
 
 1.  **最優先**
     * **回應規則：** 請勿嘗試解讀，必須明確且禮貌地告知：
-        「抱歉，本服務僅提供福德正神靈籤（六十甲子）的解籤服務，請重新輸入您的籤號或問題。」
+        「抱歉，本服務僅提供福德爺文財神靈籤（六十甲子）的解籤服務，請重新輸入您的籤號或問題。」
 
 2.  **一般問候與引導**
     * 若信眾只是打招呼（如「你好」、「土地公在嗎」）。

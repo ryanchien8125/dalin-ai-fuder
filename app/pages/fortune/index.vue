@@ -37,7 +37,7 @@ definePageMeta({
           <img 
             v-show="!imageError"
             src="~/assets/images/fuder-icon.png" 
-            alt="福德正神" 
+            alt="福德爺文財神" 
             class="w-24 h-24 md:w-40 md:h-40 mx-auto relative z-10 drop-shadow-2xl animate-float" 
             @error="handleImageError" 
           />
@@ -52,7 +52,7 @@ definePageMeta({
         </div>
         
         <h1 class="text-3xl md:text-5xl font-black text-amber-400 drop-shadow-lg tracking-wider">
-          福德正神靈籤
+          福德爺文財神靈籤
         </h1>
         <p class="text-amber-200/80 text-base md:text-xl font-light tracking-widest">
           誠心祈求 · 指點迷津
@@ -92,7 +92,7 @@ definePageMeta({
                   🙏
               </div>
               <div>
-                  <h3 class="text-lg md:text-2xl font-bold text-amber-400 mb-1 font-serif">向福德正神求籤</h3>
+                  <h3 class="text-lg md:text-2xl font-bold text-amber-400 mb-1 font-serif">向福德爺文財神求籤</h3>
                   <p class="text-amber-200/60 text-xs md:text-sm">誠心默念您的姓名與疑問<br>祈求神明賜予靈籤</p>
               </div>
               <div class="mt-2 text-amber-300 font-bold flex items-center gap-1 text-sm md:text-base opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all">

@@ -19,7 +19,7 @@ const question = computed({
 // Updated suggestions - distinct from UI elements, more thematic
 const suggestions = [
   "弟子事業運途未明，懇請賜籤指點迷津。",
-  "信女近日身體微恙，祈求福德正神庇佑平安。",
+  "信女近日身體微恙，祈求福德爺文財神庇佑平安。",
   "弟子感情路途坎坷，不知良緣何在，求神指引。",
   "信士求問財利，不知本年是否適合投資轉職。"
 ]

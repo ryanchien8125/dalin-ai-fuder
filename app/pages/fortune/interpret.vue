@@ -154,7 +154,7 @@ watch(conversationId, (newId) => {
                            {{ lotNumber }}
                        </div>
                   </div>
-                  <h3 class="text-red-900/60 font-bold tracking-[0.2em] text-xs">福德正神靈籤</h3>
+                  <h3 class="text-red-900/60 font-bold tracking-[0.2em] text-xs">福德爺文財神靈籤</h3>
               </div>
 
 
