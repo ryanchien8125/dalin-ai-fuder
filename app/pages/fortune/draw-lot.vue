@@ -228,7 +228,7 @@ definePageMeta({
             <!-- Result Display (When shaking finishes) -->
             <div v-if="selectedLot" class="animate-bounce-in text-center">
                  <div class="inline-block bg-stone-800/90 border border-amber-500/30 rounded-xl p-6 shadow-2xl relative backdrop-blur-md">
-                     <div class="text-amber-500/60 text-xs font-serif mb-2 tracking-widest uppercase">福德正神賜籤</div>
+                     <div class="text-amber-500/60 text-xs font-serif mb-2 tracking-widest uppercase">福德爺文財神</div>
                      <div class="text-5xl font-black text-amber-400 font-serif mb-2 drop-shadow-md">
                          第 {{ selectedLot }} 籤
                      </div>
