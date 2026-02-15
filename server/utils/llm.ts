@@ -40,7 +40,7 @@ export const streamCompletion = async (options: CompletionOptions) => {
         }
     }
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?key=${apiKey}&alt=sse`;
+    const url = `https://aiplatform.googleapis.com/v1/publishers/google/models/${model}:streamGenerateContent?key=${apiKey}&alt=sse`;
 
     const response = await fetch(url, {
         method: 'POST',

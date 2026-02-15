@@ -155,7 +155,7 @@ User: "${userMessage}"
   const apiKey = runtimeConfig.generativeAi.apiToken
 
   try {
-    const response = await $fetch<any>(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${apiKey}`, {
+    const response = await $fetch<any>(`https://aiplatform.googleapis.com/v1/publishers/google/models/gemini-2.5-flash-lite:generateContent?key=${apiKey}`, {
       method: 'POST',
       body: {
         contents: [{ role: 'user', parts: [{ text: systemPrompt }] }],
@@ -303,7 +303,7 @@ ${JSON.stringify(fortuneData.content)}
   const apiKey = runtimeConfig.generativeAi.apiToken
 
   try {
-    const llmResultStream = await $fetch<ReadableStream>(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:streamGenerateContent?alt=sse&key=${apiKey}`, {
+    const llmResultStream = await $fetch<ReadableStream>(`https://aiplatform.googleapis.com/v1/publishers/google/models/gemini-2.5-flash-lite:streamGenerateContent?alt=sse&key=${apiKey}`, {
       method: 'POST',
       responseType: 'stream',
       body: {
