@@ -1,0 +1,71 @@
+{
+  "fortune": {
+    "sessionExpired": {
+      "title": "やり直し",
+      "message": "ページが更新されました。最初からやり直してください。",
+      "confirm": "確認"
+    },
+    "steps": {
+      "worship": "参拝",
+      "inquiry": "お願いごと",
+      "drawLot": "おみくじ",
+      "interpret": "AI解説"
+    },
+    "worship": {
+      "title": "参拝",
+      "imageAlt": "育徳媽祖",
+      "handAlt": "参拝",
+      "prayText": "心を込めてお参りください。誠実な心に神様が応えてくださいます。",
+      "nextButton": "お願いごとへ進む"
+    },
+    "inquiry": {
+      "title": "お願いごと",
+      "placeholder": "例：今後の運勢について教えてください...",
+      "helperText": "※ 心の中で「氏名・生年月日・住所」を唱えてから、お悩みや知りたいことを入力してください。",
+      "nextButton": "おみくじへ進む",
+      "error": {
+        "empty": "お悩みやお願いしたいことを入力してください"
+      },
+      "suggestion": {
+        "example1": "恋愛・良縁について",
+        "example2": "仕事運や転職のタイミング",
+        "example3": "新しい挑戦や商売繁盛について"
+      }
+    },
+    "drawLot": {
+      "title": "おみくじを引く",
+      "subtitle": "心を落ち着かせ、下の筒をタップしておみくじを引いてください。",
+      "selectPlaceholder": "番号を選択",
+      "nextButton": "AI解説を開始する",
+      "containerAlt": "みくじ筒",
+      "error": {
+        "noLot": "おみくじを引くか、番号を選んでください",
+        "invalidLot": "番号は 1 から 60 の間で指定してください"
+      }
+    },
+    "interpret": {
+      "title": "AI解説",
+      "greeting": "参拝者様、神さまより「{question}」についてのお言葉を授かりました。",
+      "inputPlaceholder": "さらにお願いしたいことはありますか？",
+      "expired": "この対話は終了しました",
+      "backButton": "最初からやり直してください。",
+      "limitModal": {
+        "title": "対話制限に達しました",
+        "confirm": "確認"
+      },
+      "scrollToTop": "トップへ戻る",
+      "learnMoreButton": "詳細はこちらへ"
+    },
+    "auth": {
+      "title": "認証",
+      "subtitle": "儀式を続けるには認証コードを入力してください",
+      "placeholder": "認証コードを入力",
+      "submit": "確認",
+      "submitting": "認証中...",
+      "error": {
+        "expired": "認証の有効期限が切れました。再度認証してください",
+        "failed": "認証に失敗しました"
+      }
+    }
+  }
+}

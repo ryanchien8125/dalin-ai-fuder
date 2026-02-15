@@ -1,0 +1,75 @@
+{
+  "fortune": {
+    "sessionExpired": {
+      "title": "重新開始",
+      "message": "頁面已重新整理，將返回禮拜步驟重新開始。",
+      "confirm": "確定"
+    },
+    "steps": {
+      "worship": "禮拜",
+      "inquiry": "請示",
+      "drawLot": "抽籤",
+      "interpret": "解籤"
+    },
+    "worship": {
+      "title": "禮拜祈福",
+      "imageAlt": "育德媽祖",
+      "handAlt": "禮拜",
+      "prayText": "虔誠禮拜，心誠則靈",
+      "nextButton": "點擊進入請示"
+    },
+    "inquiry": {
+      "title": "禮拜請示",
+      "placeholder": "請輸入您想請示的問題...",
+      "helperText": "※ 請誠心默念您的姓名、出生年月日與住址，再將您想請示的問題輸入上方。",
+      "nextButton": "點擊進入下一步抽籤",
+      "error": {
+        "empty": "請先輸入您想請示的問題"
+      },
+      "suggestion": {
+        "example1": "我想詢問愛情",
+        "example2": "最近是否適合搬家",
+        "example3": "新開了一間店，想知道運勢如何"
+      }
+    },
+    "drawLot": {
+      "title": "抽籤問事",
+      "subtitle": "請誠心祈求，點擊下方籤筒進行抽籤。",
+      "selectPlaceholder": "選擇籤號",
+      "nextButton": "點擊進入 AI 解籤",
+      "containerAlt": "籤筒",
+      "error": {
+        "noLot": "請先抽籤或選擇籤號",
+        "invalidLot": "籤號必須在 1-60 之間"
+      }
+    },
+    "selectLot": {
+      "title": "請選擇您的籤號",
+      "subtitle": "請依照您求得的籤號選擇"
+    },
+    "interpret": {
+      "title": "解籤結果",
+      "greeting": "這位信眾，您誠心向媽祖祈求指引，請示「{question}」",
+      "inputPlaceholder": "信眾可持續追問...",
+      "expired": "此次解籤對話已結束",
+      "backButton": "返回首頁重新禮拜請示",
+      "limitModal": {
+        "title": "對話已達上限",
+        "confirm": "我知道了"
+      },
+      "scrollToTop": "回到頂部",
+      "learnMoreButton": "點擊了解我們"
+    },
+    "auth": {
+      "title": "信物驗證",
+      "subtitle": "請輸入驗證碼以繼續儀式",
+      "placeholder": "請輸入驗證碼",
+      "submit": "確認",
+      "submitting": "驗證中...",
+      "error": {
+        "expired": "驗證已過期，請重新驗證",
+        "failed": "驗證失敗"
+      }
+    }
+  }
+}

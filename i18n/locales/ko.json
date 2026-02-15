@@ -1,0 +1,13 @@
+{
+  "hello": "Hello!",
+  "language": "Language",
+  "home": "Home",
+  "about": "About",
+
+  "chat.text_input_placeholder.default": "내용을 입력해 주세요",
+  "chat.text_input_placeholder.replying": "답변 중...",
+  "chat.navigation.restart_conversation": "다시 시작",
+  "chat.navigation.change_language": "언어 변경",
+  "chat.navigation.user_guide": "사용 방법",
+  "chat.navigation.about_us": "기업 개요"
+}

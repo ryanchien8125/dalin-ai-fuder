@@ -1,0 +1,13 @@
+{
+  "hello": "Hello!",
+  "language": "Language",
+  "home": "Home",
+  "about": "About",
+
+  "chat.text_input_placeholder.default": "Enter some text",
+  "chat.text_input_placeholder.replying": "Replying...",
+  "chat.navigation.restart_conversation": "Restart Conversation",
+  "chat.navigation.change_language": "Change Language",
+  "chat.navigation.user_guide": "User Guide",
+  "chat.navigation.about_us": "About Us"
+}
