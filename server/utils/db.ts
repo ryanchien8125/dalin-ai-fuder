@@ -50,9 +50,21 @@ export const initDb = async () => {
     );
     `;
 
+    const createContactMessages = `
+    CREATE TABLE IF NOT EXISTS contact_messages (
+        id SERIAL PRIMARY KEY,
+        name TEXT,
+        phone TEXT,
+        email TEXT,
+        message TEXT,
+        created_at BIGINT
+    );
+    `;
+
     try {
         await pool.query(createConversations);
         await pool.query(createMessages);
+        await pool.query(createContactMessages);
         console.log('[DB] Database tables initialized (PostgreSQL)');
     } catch (e) {
         console.error('[DB] Failed to initialize tables:', e);

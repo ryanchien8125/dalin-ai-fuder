@@ -48,6 +48,18 @@ const showFooter = computed(() => route.path !== '/fortune/interpret')
           </div>
         </NuxtLink>
         
+        <!-- Navigation Links -->
+        <div class="flex items-center gap-4">
+            <NuxtLink 
+              to="/about" 
+              class="text-amber-200/80 hover:text-amber-400 text-sm font-bold tracking-wider transition-colors flex items-center gap-1 px-3 py-1.5 rounded-full hover:bg-amber-900/30"
+              active-class="bg-amber-900/40 text-amber-400"
+            >
+              <Icon name="heroicons:information-circle" class="text-lg" />
+              <span class="hidden md:inline">關於我們</span>
+            </NuxtLink>
+        </div>
+
         <!-- Language Switcher (Hidden for now) -->
         <!-- 
         <div class="flex items-center">
