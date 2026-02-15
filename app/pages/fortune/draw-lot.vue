@@ -164,9 +164,9 @@ definePageMeta({
 </script>
 
 <template>
-  <div class="w-full h-full flex flex-col relative overflow-hidden animate-fade-in">
+  <div class="w-full h-full relative overflow-hidden animate-fade-in bg-stone-900">
     
-    <!-- Background Image -->
+    <!-- Background Image (Fixed) -->
     <div class="absolute inset-0 z-0">
         <img 
             src="~/assets/images/draw-lot-bg.png" 
@@ -176,8 +176,9 @@ definePageMeta({
         <div class="absolute inset-0 bg-stone-900/60"></div>
     </div>
 
-    <!-- Main Content -->
-    <div class="relative z-10 w-full h-full flex flex-col items-center justify-between py-8 md:py-12 px-4">
+    <!-- Main Content (Scrollable) -->
+    <div class="relative z-10 w-full h-full overflow-y-auto overflow-x-hidden">
+        <div class="w-full min-h-full flex flex-col items-center justify-between py-8 md:py-12 px-4">
         
         <!-- Header -->
         <div class="text-center space-y-2 mt-4">
@@ -269,6 +270,7 @@ definePageMeta({
 
         </div>
 
+    </div>
     </div>
 
     <!-- Session Expiration Modal -->
