@@ -187,7 +187,7 @@ watch(conversationId, (newId) => {
                                 <div class="w-10 h-10 border border-amber-500/20 rounded-full p-0.5 bg-amber-50/50 overflow-hidden shadow-sm">
                                     <img src="~/assets/images/fuder-icon.png" alt="Fuder" class="w-full h-full object-contain" @error="(e) => (e.target as HTMLImageElement).style.display = 'none'" />
                                 </div>
-                                <span class="text-sm font-bold text-red-900/90 font-serif tracking-widest">福德正神</span>
+                                <!-- <span class="text-sm font-bold text-red-900/90 font-serif tracking-widest">福德正神</span> -->
                            </div>
 
                            <div class="w-full relative">
