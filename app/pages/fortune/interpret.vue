@@ -181,27 +181,29 @@ watch(conversationId, (newId) => {
                            <div class="h-px bg-red-900 w-8"></div>
                       </div>
 
-                      <div class="flex items-start px-2 md:px-6">
-                           <div class="mr-4 mt-2 shrink-0 flex flex-col items-center gap-2 opacity-100">
-                                <div class="w-12 h-12 border border-amber-500/20 rounded-full p-0.5 bg-amber-50/50 overflow-hidden">
+                       <div class="flex flex-col px-2 md:px-6">
+                           <!-- Avatar Header -->
+                           <div class="mb-3 shrink-0 flex items-center gap-3 opacity-100 ml-1">
+                                <div class="w-10 h-10 border border-amber-500/20 rounded-full p-0.5 bg-amber-50/50 overflow-hidden shadow-sm">
                                     <img src="~/assets/images/fuder-icon.png" alt="Fuder" class="w-full h-full object-contain" @error="(e) => (e.target as HTMLImageElement).style.display = 'none'" />
                                 </div>
+                                <span class="text-sm font-bold text-red-900/90 font-serif tracking-widest">福德正神</span>
                            </div>
 
-                           <div class="flex-1 relative">
+                           <div class="w-full relative">
                                 <!-- Oracle Text Area -->
-                                <div class="relative z-10">
+                                <div class="relative z-10 px-1">
                                     <MarkdownRenderer 
                                         :data="msg.content" 
                                         class="text-red-950/90 leading-loose tracking-wider prose prose-stone prose-lg md:prose-xl prose-p:font-serif prose-p:my-4 prose-headings:text-red-900 prose-headings:font-black prose-strong:text-red-800" 
                                     />
                                     <span v-if="isLoading && index === messages.length - 1" class="inline-block w-2 h-5 bg-red-900/60 animate-pulse ml-1 align-middle"></span>
                                 </div>
-                                <div class="mt-6 pt-4 border-t border-red-900/10">
+                                <div class="mt-8 pt-4 border-t border-red-900/10">
                                     <p class="text-[10px] text-stone-400 font-serif text-center opacity-70">（此解籤結果僅供參考，請以誠心向福德正神擲筊確認為準。）</p>
                                 </div>
                            </div>
-                      </div>
+                       </div>
                   </div>
               </template>
               <div ref="scrollAnchor"/>
