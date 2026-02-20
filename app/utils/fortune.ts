@@ -1,19 +1,67 @@
-
-const HeavenlyStems = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸']
-const EarthlyBranches = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥']
+const lotGanZhiList = [
+  '甲子',
+  '甲寅',
+  '甲辰',
+  '甲午',
+  '甲申',
+  '甲戍',
+  '乙丑',
+  '乙卯',
+  '乙巳',
+  '乙未',
+  '乙酉',
+  '乙亥',
+  '丙子',
+  '丙寅',
+  '丙辰',
+  '丙午',
+  '丙申',
+  '丙戍',
+  '丁丑',
+  '丁卯',
+  '丁巳',
+  '丁未',
+  '丁酉',
+  '丁亥',
+  '戊子',
+  '戍寅',
+  '戊辰',
+  '戊午',
+  '戊申',
+  '戊戍',
+  '己丑',
+  '己卯',
+  '己巳',
+  '己未',
+  '己酉',
+  '己亥',
+  '庚子',
+  '庚寅',
+  '庚辰',
+  '庚午',
+  '庚申',
+  '庚戍',
+  '辛丑',
+  '辛卯',
+  '辛巳',
+  '辛未',
+  '辛酉',
+  '辛亥',
+  '壬子',
+  '壬寅',
+  '壬辰',
+  '壬午',
+  '壬申',
+  '壬戍',
+  '癸丑',
+  '癸卯',
+  '癸巳',
+  '癸未',
+  '癸酉',
+  '癸亥',
+]
 
 export const getLotGanZhi = (lotNumber: number): string => {
   if (lotNumber < 1 || lotNumber > 60) return ''
-  
-  // 1-based index calculation
-  // 1 -> 甲子 (index 0, 0)
-  const stemIndex = (lotNumber - 1) % 10
-  const branchIndex = (lotNumber - 1) % 12
-  
-  const stem = HeavenlyStems[stemIndex]
-  const branch = EarthlyBranches[branchIndex]
-
-  if (!stem || !branch) return ''
-
-  return stem + branch
+  return lotGanZhiList?.[lotNumber - 1] || ''
 }
